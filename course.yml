@@ -130,7 +130,7 @@ sessions:
   date: 2022-12-15
   materials:
   # materiály
-  - lesson: projects/asteroids
+  - lesson: beginners/while
 
 
 
