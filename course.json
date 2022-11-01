@@ -1106,33 +1106,6 @@
                 "static_files": {},
                 "title": "JSON"
             },
-            "projects/asteroids": {
-                "pages": {
-                    "index": {
-                        "attribution": [
-                            "Pro PyLadies Brno napsal Petr Viktorin, 2015-2017."
-                        ],
-                        "content": {
-                            "path": "asteroids/index.html"
-                        },
-                        "license": "cc-by-sa-40",
-                        "slug": "index",
-                        "solutions": [],
-                        "source_file": "lessons/projects/asteroids/index.md",
-                        "title": "Asteroids",
-                        "vars": {
-                            "coach-present": true
-                        }
-                    }
-                },
-                "source_file": "lessons/projects/asteroids/info.yml",
-                "static_files": {
-                    "screenshot.png": {
-                        "path": "asteroids/screenshot.png"
-                    }
-                },
-                "title": "Asteroids"
-            },
             "projects/github-api": {
                 "pages": {
                     "index": {
@@ -1409,8 +1382,8 @@
                 "date": "2022-12-15",
                 "materials": [
                     {
-                        "lesson_slug": "projects/asteroids",
-                        "title": "Asteroids",
+                        "lesson_slug": "beginners/while",
+                        "title": "Cyklus While",
                         "type": "lesson"
                     }
                 ],
