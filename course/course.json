@@ -64,6 +64,47 @@
                 "static_files": {},
                 "title": "Užitečné funkce"
             },
+            "beginners/cmdline": {
+                "pages": {
+                    "index": {
+                        "attribution": [
+                            "Pro PyLadies Brno napsal Petr Viktorin, 2014-2017.",
+                            "Založeno na tutoriálu <a href=\"https://tutorial.djangogirls.org/en/intro_to_command_line/\">Django Girls</a>."
+                        ],
+                        "content": {
+                            "path": "cmdline/index.html"
+                        },
+                        "license": "cc-by-sa-40",
+                        "slug": "index",
+                        "solutions": [
+                            {
+                                "content": "<div class=\"row side-by-side-commands\"><div class=\"col\">\n                <h4>Unix</h4><div class=\"highlight\"><pre><span></span><span class=\"gp\">$ </span><span class=\"nb\">cd</span> naucse-python\n<span class=\"gp\">$ </span>mkdir <span class=\"nb\">test</span>\n<span class=\"gp\">$ </span>ls\n<span class=\"go\">test</span>\n</pre></div></div><div class=\"col\">\n                <h4>Windows</h4><div class=\"highlight\"><pre><span></span><span class=\"gp\">&gt; </span>cd naucse-python<span class=\"gp\"></span>\n<span class=\"gp\">&gt; </span>mkdir test<span class=\"gp\"></span>\n<span class=\"gp\">&gt; </span>dir\n<span class=\"go\">05/08/2014 07:28 PM &lt;DIR&gt;  test</span>\n</pre></div></div></div>"
+                            }
+                        ],
+                        "source_file": "lessons/beginners/cmdline/index.md",
+                        "title": "Úvod do příkazové řádky",
+                        "vars": {
+                            "coach-present": true
+                        }
+                    }
+                },
+                "source_file": "lessons/beginners/cmdline/info.yml",
+                "static_files": {
+                    "linux-file-browser.png": {
+                        "path": "cmdline/linux-file-browser.png"
+                    },
+                    "macos-file-browser.png": {
+                        "path": "cmdline/macos-file-browser.png"
+                    },
+                    "windows-cmd-properties.png": {
+                        "path": "cmdline/windows-cmd-properties.png"
+                    },
+                    "windows-file-browser.png": {
+                        "path": "cmdline/windows-file-browser.png"
+                    }
+                },
+                "title": "Úvod do příkazové řádky"
+            },
             "beginners/comparisons": {
                 "pages": {
                     "index": {
@@ -1172,6 +1213,11 @@
                         "type": "lesson"
                     },
                     {
+                        "lesson_slug": "beginners/cmdline",
+                        "title": "(Lokální instalace) Úvod do příkazvé řádky",
+                        "type": "lesson"
+                    },
+                    {
                         "external_url": "https://pyvec.github.io/cheatsheets/keyboard/keyboard-cs.pdf",
                         "title": "Tahák na klávesnici (PDF)",
                         "type": "cheatsheet"
@@ -1184,7 +1230,7 @@
                 ],
                 "serial": "1",
                 "slug": "hello",
-                "source_file": "course.yml",
+                "source_file": "courses/course.yml",
                 "title": "První program"
             },
             {
@@ -1223,7 +1269,7 @@
                 ],
                 "serial": "2",
                 "slug": "cyk",
-                "source_file": "course.yml",
+                "source_file": "courses/course.yml",
                 "title": "Řídící struktury"
             },
             {
@@ -1257,7 +1303,7 @@
                 ],
                 "serial": "3",
                 "slug": "fun",
-                "source_file": "course.yml",
+                "source_file": "courses/course.yml",
                 "title": "Funkce"
             },
             {
@@ -1281,7 +1327,7 @@
                 ],
                 "serial": "4",
                 "slug": "other",
-                "source_file": "course.yml",
+                "source_file": "courses/course.yml",
                 "title": "Ostatní knihovny a technologie"
             },
             {
@@ -1375,7 +1421,7 @@
                 ],
                 "serial": "5",
                 "slug": "str_fio",
-                "source_file": "course.yml",
+                "source_file": "courses/course.yml",
                 "title": "Datové struktury a soubory"
             },
             {
@@ -1389,11 +1435,11 @@
                 ],
                 "serial": "6",
                 "slug": "project",
-                "source_file": "course.yml",
+                "source_file": "courses/course.yml",
                 "title": "Projekt - Robomaster"
             }
         ],
-        "source_file": "course.yml",
+        "source_file": "courses/course.yml",
         "subtitle": "SITPort - podzim 2022 - čtvrtek",
         "time_description": "15:00 - 16:30",
         "timezone": "Europe/Prague",
