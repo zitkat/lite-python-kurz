@@ -114,5 +114,3 @@ else:
 >
 > Proměnná `stastna` nebo `bohata` se nenastaví, a když je ji potom
 > potřeba použít, program skončí s chybou.
->
-> O tom, jak se vypořádat s chybami, si povíme [později]({{ lesson_url('beginners/exceptions') }}).
