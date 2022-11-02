@@ -35,6 +35,8 @@ sessions:
     title: "(Lokální instalace) Python"
   - lesson: beginners/install-editor
     title: "(Lokální instalace) Editor"
+  - lesson: beginners/cmdline
+    title: "(Lokální instalace) Úvod do příkazvé řádky"
   - title: Tahák na klávesnici (PDF)
     url: https://pyvec.github.io/cheatsheets/keyboard/keyboard-cs.pdf
     type: cheatsheet
