@@ -11,8 +11,7 @@ to, co napíšeš, se ztratí, jakmile zavřeš okno příkazové řádky.
 Na jednoduché výpočty to nevadí, ale až budou tvoje programy složitější,
 budeš je potřebovat nějak uložit.
 
-Otevři editor
-Můžeš ho mít buď naistalovaný (Instrukce jsou [zde]({{ lesson_url('beginners/install-editor') }}) nebo použij repl.com. 
+Otevři editor. Můžeš ho mít buď naistalovaný (Instrukce jsou [zde]({{ lesson_url('beginners/install-editor') }}) nebo použij repl.com. 
 
 V něm vytvoř nový soubor, do kterého napiš následující text:
 
@@ -36,7 +35,7 @@ Pomocí `cd` donaviguj do adresáře, kde máš soubory ke kurzům Pythonu.
 > v [minulé lekci](../../beginners/cmdline/), která popisuje i změnu aktuálního
 > adresáře pomocí příkazu `cd`.
 
-Na repl.com můžeš tento krok přeskočit.
+Na replit.com není třeba se nikam donavigovat, stačí kliknout na záložku `Shell`, ve které se ti otevře příkazová řádka v té správné složce.
 
 Pak a zadej tento příkaz:
 

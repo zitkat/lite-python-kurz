@@ -73,12 +73,9 @@ Vybereš-li editor, klikni na jeho jméno a dostaneš se na instrukce ke stažen
 a nastavení.
 (Na tuhle stránku se pak už nemusíš vracet.)
 
-Na kurzu budeme používat editor Thonny
+Pro úplné začátečníky se hodí
 
-* [Thonny]({{ subpage_url('thonny') }}) - editor určený pro začátečníky s užitečnými funkcemi, jako krokování vyhodnocování výrazů, nápovědou apod. 
-
-V minulosti jsem používali Mu editor, můžeš ho taky zkusit, třeba se ti bude líbit víc.
-
+* [Thonny]({{ subpage_url('thonny') }}) - editor určený pro začátečníky s užitečnými funkcemi, jako krokování vyhodnocování výrazů, nápovědou apod.
 * [Mu]({{ subpage_url('mu') }}) - jednoduchý editor určený pro začínající programátory.
 
 Pro pokročilejší programátory je vhodné Visual Studio Code, v kurzu se s ním 

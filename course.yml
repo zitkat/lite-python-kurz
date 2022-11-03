@@ -22,6 +22,12 @@ sessions:
   date: 2022-11-10
   materials:
   - lesson: beginners/install-replit
+  - lesson: beginners/install
+    title: "(Lokální instalace) Python"
+  - lesson: beginners/install-editor
+    title: "(Lokální instalace) Editor"
+  - lesson: beginners/cmdline
+    title: "(Lokální instalace) Úvod do příkazové řádky"
   - lesson: beginners/first-steps
   - lesson: beginners/hello-world
   - lesson: beginners/print
@@ -31,12 +37,6 @@ sessions:
    # title: '(Bonus) "Nebo" anebo "a"'
   #- lesson: beginners/expressions
    # title: '(Doplnění) Vyhodnocování výrazů'
-  - lesson: beginners/install
-    title: "(Lokální instalace) Python"
-  - lesson: beginners/install-editor
-    title: "(Lokální instalace) Editor"
-  - lesson: beginners/cmdline
-    title: "(Lokální instalace) Úvod do příkazvé řádky"
   - title: Tahák na klávesnici (PDF)
     url: https://pyvec.github.io/cheatsheets/keyboard/keyboard-cs.pdf
     type: cheatsheet
@@ -130,9 +130,7 @@ sessions:
 - title: Projekt - Robomaster  # vasek + tomas
   slug: project
   date: 2022-12-15
-  materials:
-  # materiály
-  - lesson: beginners/while
+
 
 
 

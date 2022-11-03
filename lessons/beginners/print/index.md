@@ -8,8 +8,6 @@ print("Ahoj světe!")
 ```
 
 Program spusť:
-* pokud ti už na začátku příkazové řádky nesvítí `(venv)`,
-  aktivuj si virtuální prostředí,
 * pomocí `cd` donaviguj do adresáře s programem,
 * zadej `python printing.py`.
 
