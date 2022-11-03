@@ -1183,6 +1183,21 @@
                         "type": "lesson"
                     },
                     {
+                        "lesson_slug": "beginners/install",
+                        "title": "(Lokální instalace) Python",
+                        "type": "lesson"
+                    },
+                    {
+                        "lesson_slug": "beginners/install-editor",
+                        "title": "(Lokální instalace) Editor",
+                        "type": "lesson"
+                    },
+                    {
+                        "lesson_slug": "beginners/cmdline",
+                        "title": "(Lokální instalace) Úvod do příkazové řádky",
+                        "type": "lesson"
+                    },
+                    {
                         "lesson_slug": "beginners/first-steps",
                         "title": "První krůčky",
                         "type": "lesson"
@@ -1200,21 +1215,6 @@
                     {
                         "lesson_slug": "beginners/variables",
                         "title": "Proměnné",
-                        "type": "lesson"
-                    },
-                    {
-                        "lesson_slug": "beginners/install",
-                        "title": "(Lokální instalace) Python",
-                        "type": "lesson"
-                    },
-                    {
-                        "lesson_slug": "beginners/install-editor",
-                        "title": "(Lokální instalace) Editor",
-                        "type": "lesson"
-                    },
-                    {
-                        "lesson_slug": "beginners/cmdline",
-                        "title": "(Lokální instalace) Úvod do příkazvé řádky",
                         "type": "lesson"
                     },
                     {
@@ -1426,13 +1426,6 @@
             },
             {
                 "date": "2022-12-15",
-                "materials": [
-                    {
-                        "lesson_slug": "beginners/while",
-                        "title": "Cyklus While",
-                        "type": "lesson"
-                    }
-                ],
                 "serial": "6",
                 "slug": "project",
                 "source_file": "course.yml",
