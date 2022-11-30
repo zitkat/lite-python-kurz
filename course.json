@@ -739,6 +739,29 @@
                 "static_files": {},
                 "title": "Lokální proměnné"
             },
+            "beginners/modules": {
+                "pages": {
+                    "index": {
+                        "attribution": [
+                            "Pro PyLadies Brno napsal Petr Viktorin, 2014-2017."
+                        ],
+                        "content": {
+                            "path": "modules/index.html"
+                        },
+                        "license": "cc-by-sa-40",
+                        "slug": "index",
+                        "solutions": [],
+                        "source_file": "lessons/beginners/modules/index.md",
+                        "title": "Moduly",
+                        "vars": {
+                            "coach-present": true
+                        }
+                    }
+                },
+                "source_file": "lessons/beginners/modules/info.yml",
+                "static_files": {},
+                "title": "Moduly"
+            },
             "beginners/nested-list": {
                 "pages": {
                     "index": {
@@ -1040,90 +1063,6 @@
                 "static_files": {},
                 "title": "Iterátory n-tic"
             },
-            "git/basics": {
-                "pages": {
-                    "index": {
-                        "attribution": [
-                            "Pro PyLadies Brno napsal Petr Viktorin, 2015-2017."
-                        ],
-                        "content": {
-                            "path": "basics/index.html"
-                        },
-                        "css": ".green  {   color:  #0a0;    }\n.red    {   color:  #a00;    }\n.yellow {   color:  #a50;    }\n.strong {   font-weight:  bold;    }\n.blue   {   color:  #0aa;    }\n",
-                        "license": "cc-by-sa-40",
-                        "slug": "index",
-                        "solutions": [],
-                        "source_file": "lessons/git/basics/index.md",
-                        "title": "Git",
-                        "vars": {
-                            "coach-present": true
-                        }
-                    }
-                },
-                "source_file": "lessons/git/basics/info.yml",
-                "static_files": {
-                    "diagram.svg": {
-                        "path": "basics/diagram.svg"
-                    },
-                    "dropbox.png": {
-                        "path": "basics/dropbox.png"
-                    },
-                    "gitk.png": {
-                        "path": "basics/gitk.png"
-                    }
-                },
-                "title": "Git"
-            },
-            "git/collaboration": {
-                "pages": {
-                    "index": {
-                        "attribution": [
-                            "Pro PyLadies CZ napsali Petr Viktorin a Oskar Hollman, 2015-2017."
-                        ],
-                        "content": {
-                            "path": "collaboration/index.html"
-                        },
-                        "license": "cc-by-sa-40",
-                        "slug": "index",
-                        "solutions": [],
-                        "source_file": "lessons/git/collaboration/index.md",
-                        "title": "Spolupráce a Open source",
-                        "vars": {
-                            "coach-present": true
-                        }
-                    }
-                },
-                "source_file": "lessons/git/collaboration/info.yml",
-                "static_files": {
-                    "gh-workflow-diagram.svg": {
-                        "path": "collaboration/gh-workflow-diagram.svg"
-                    }
-                },
-                "title": "Spolupráce a Open source"
-            },
-            "git/install": {
-                "pages": {
-                    "index": {
-                        "attribution": [
-                            "Pro PyLadies Brno napsal Petr Viktorin, 2014-2017"
-                        ],
-                        "content": {
-                            "path": "install/index.1.html"
-                        },
-                        "license": "cc-by-sa-40",
-                        "slug": "index",
-                        "solutions": [],
-                        "source_file": "lessons/git/install/index.md",
-                        "title": "Instalace Gitu",
-                        "vars": {
-                            "coach-present": true
-                        }
-                    }
-                },
-                "source_file": "lessons/git/install/info.yml",
-                "static_files": {},
-                "title": "Instalace Gitu"
-            },
             "intro/json": {
                 "pages": {
                     "index": {
@@ -1147,6 +1086,30 @@
                 "static_files": {},
                 "title": "JSON"
             },
+            "other-tech/databases": {
+                "pages": {
+                    "index": {
+                        "attribution": [
+                            "Pro SIT Port napsal Tomáš Zítka, 2022"
+                        ],
+                        "content": {
+                            "path": "databases/index.html"
+                        },
+                        "license": "cc-by-sa-40",
+                        "license_code": "cc0",
+                        "slug": "index",
+                        "solutions": [],
+                        "source_file": "lessons/other-tech/databases/index.md",
+                        "title": "Databáze - přehled",
+                        "vars": {
+                            "coach-present": true
+                        }
+                    }
+                },
+                "source_file": "lessons/other-tech/databases/info.yml",
+                "static_files": {},
+                "title": "Databáze - přehled"
+            },
             "projects/github-api": {
                 "pages": {
                     "index": {
@@ -1169,6 +1132,30 @@
                 "source_file": "lessons/projects/github-api/info.yml",
                 "static_files": {},
                 "title": "Github API"
+            },
+            "projects/rock-paper-scissors": {
+                "pages": {
+                    "index": {
+                        "attribution": [
+                            "Pro SIT Port napsal Tomáš Zítka, 2022"
+                        ],
+                        "content": {
+                            "path": "rock-paper-scissors/index.html"
+                        },
+                        "license": "cc-by-sa-40",
+                        "license_code": "cc0",
+                        "slug": "index",
+                        "solutions": [],
+                        "source_file": "lessons/projects/rock-paper-scissors/index.md",
+                        "title": "Kámen, nůžky, papír",
+                        "vars": {
+                            "coach-present": true
+                        }
+                    }
+                },
+                "source_file": "lessons/projects/rock-paper-scissors/info.yml",
+                "static_files": {},
+                "title": "Kámen, nůžky, papír"
             }
         },
         "long_description": "<p>Chceš si osvojit programování a nevíš, jak začít? Pak se neváhej zúčastnit série 6 workshopů, na\nkterých tě naučíme základy programování v nejrozšířenějším programovacím jazyce na světě,\nPythonu. Díky praktickým příkladům a cvičením, které si pro vás nachystali naši zkušení lektoři, se\nbudete učit krok za krokem rozvíjet své nové programovací dovednosti.</p>",
@@ -1310,18 +1297,18 @@
                 "date": "2022-12-01",
                 "materials": [
                     {
-                        "lesson_slug": "git/install",
-                        "title": "Instalace Gitu",
+                        "lesson_slug": "beginners/modules",
+                        "title": "Moduly",
                         "type": "lesson"
                     },
                     {
-                        "lesson_slug": "git/basics",
-                        "title": "Git",
+                        "lesson_slug": "projects/rock-paper-scissors",
+                        "title": "Kámen, nůžky, papír",
                         "type": "lesson"
                     },
                     {
-                        "lesson_slug": "git/collaboration",
-                        "title": "Spolupráce a Open source",
+                        "lesson_slug": "other-tech/databases",
+                        "title": "Databáze - přehled",
                         "type": "lesson"
                     }
                 ],
