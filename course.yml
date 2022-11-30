@@ -89,9 +89,9 @@ sessions:
     # databze
     # docker
     # aws
-    - lesson: git/install
-    - lesson: git/basics
-    - lesson: git/collaboration
+    - lesson: beginners/modules
+    - lesson: projects/rock-paper-scissors
+    - lesson: other-tech/databases
 
 - title: Datové struktury a soubory # tomas
   slug: str_fio
