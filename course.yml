@@ -96,7 +96,7 @@ sessions:
     - lesson: beginners/fstring
       title: "(Bonus) Šablony - formatovací řetězce"
 
-    - lesson: projects/tic-tac-1D
+    - lesson: projects/tic-tac-1d
     - lesson: other-tech/databases
     - lesson: other-tech/overview
 
