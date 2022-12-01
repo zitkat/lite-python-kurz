@@ -90,18 +90,22 @@ sessions:
     # docker
     # aws
     - lesson: beginners/modules
-    - lesson: projects/rock-paper-scissors
+    - lesson: beginners/str
+    - lesson: beginners/str-index-slice
+    - lesson: beginners/str-methods
+    - lesson: beginners/fstring
+      title: "(Bonus) Šablony - formatovací řetězce"
+
+    - lesson: projects/tic-tac-1D
     - lesson: other-tech/databases
+    - lesson: other-tech/overview
 
 - title: Datové struktury a soubory # tomas
   slug: str_fio
   date: 2022-12-08
   materials:
 
-  - lesson: beginners/str
-  - lesson: beginners/str-index-slice
-  - lesson: beginners/str-methods
-  - lesson: beginners/fstring
+
   - lesson: beginners/files
   - title: 'Odkaz k lekci – Jane Austen: Pride and Prejudice'
     url: https://www.gutenberg.org/files/1342/1342-0.txt
