@@ -1241,7 +1241,7 @@
                 ],
                 "serial": "1",
                 "slug": "hello",
-                "source_file": "courses/course.yml",
+                "source_file": "course.yml",
                 "title": "První program"
             },
             {
@@ -1280,7 +1280,7 @@
                 ],
                 "serial": "2",
                 "slug": "cyk",
-                "source_file": "courses/course.yml",
+                "source_file": "course.yml",
                 "title": "Řídící struktury"
             },
             {
@@ -1314,7 +1314,7 @@
                 ],
                 "serial": "3",
                 "slug": "fun",
-                "source_file": "courses/course.yml",
+                "source_file": "course.yml",
                 "title": "Funkce"
             },
             {
@@ -1363,7 +1363,7 @@
                 ],
                 "serial": "4",
                 "slug": "other",
-                "source_file": "courses/course.yml",
+                "source_file": "course.yml",
                 "title": "Ostatní knihovny a technologie"
             },
             {
@@ -1437,18 +1437,18 @@
                 ],
                 "serial": "5",
                 "slug": "str_fio",
-                "source_file": "courses/course.yml",
+                "source_file": "course.yml",
                 "title": "Datové struktury a soubory"
             },
             {
                 "date": "2022-12-15",
                 "serial": "6",
                 "slug": "project",
-                "source_file": "courses/course.yml",
+                "source_file": "course.yml",
                 "title": "Projekt - Robomaster"
             }
         ],
-        "source_file": "courses/course.yml",
+        "source_file": "course.yml",
         "subtitle": "SITPort - podzim 2022 - čtvrtek",
         "time_description": "15:00 - 16:30",
         "timezone": "Europe/Prague",
