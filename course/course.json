@@ -1110,6 +1110,30 @@
                 "static_files": {},
                 "title": "Databáze - přehled"
             },
+            "other-tech/overview": {
+                "pages": {
+                    "index": {
+                        "attribution": [
+                            "Pro SIT Port napsal Tomáš Zítka, 2022"
+                        ],
+                        "content": {
+                            "path": "overview/index.html"
+                        },
+                        "license": "cc-by-sa-40",
+                        "license_code": "cc0",
+                        "slug": "index",
+                        "solutions": [],
+                        "source_file": "lessons/other-tech/overview/index.md",
+                        "title": "Ostatní technologie",
+                        "vars": {
+                            "coach-present": true
+                        }
+                    }
+                },
+                "source_file": "lessons/other-tech/overview/info.yml",
+                "static_files": {},
+                "title": "Ostatní technologie"
+            },
             "projects/github-api": {
                 "pages": {
                     "index": {
@@ -1133,29 +1157,29 @@
                 "static_files": {},
                 "title": "Github API"
             },
-            "projects/rock-paper-scissors": {
+            "projects/tic-tac-1D": {
                 "pages": {
                     "index": {
                         "attribution": [
                             "Pro SIT Port napsal Tomáš Zítka, 2022"
                         ],
                         "content": {
-                            "path": "rock-paper-scissors/index.html"
+                            "path": "tic-tac-1D/index.html"
                         },
                         "license": "cc-by-sa-40",
                         "license_code": "cc0",
                         "slug": "index",
                         "solutions": [],
-                        "source_file": "lessons/projects/rock-paper-scissors/index.md",
-                        "title": "Kámen, nůžky, papír",
+                        "source_file": "lessons/projects/tic-tac-1D/index.md",
+                        "title": "Piškvorky 1D",
                         "vars": {
                             "coach-present": true
                         }
                     }
                 },
-                "source_file": "lessons/projects/rock-paper-scissors/info.yml",
+                "source_file": "lessons/projects/tic-tac-1D/info.yml",
                 "static_files": {},
-                "title": "Kámen, nůžky, papír"
+                "title": "Piškvorky 1D"
             }
         },
         "long_description": "<p>Chceš si osvojit programování a nevíš, jak začít? Pak se neváhej zúčastnit série 6 workshopů, na\nkterých tě naučíme základy programování v nejrozšířenějším programovacím jazyce na světě,\nPythonu. Díky praktickým příkladům a cvičením, které si pro vás nachystali naši zkušení lektoři, se\nbudete učit krok za krokem rozvíjet své nové programovací dovednosti.</p>",
@@ -1217,7 +1241,7 @@
                 ],
                 "serial": "1",
                 "slug": "hello",
-                "source_file": "course.yml",
+                "source_file": "courses/course.yml",
                 "title": "První program"
             },
             {
@@ -1256,7 +1280,7 @@
                 ],
                 "serial": "2",
                 "slug": "cyk",
-                "source_file": "course.yml",
+                "source_file": "courses/course.yml",
                 "title": "Řídící struktury"
             },
             {
@@ -1290,7 +1314,7 @@
                 ],
                 "serial": "3",
                 "slug": "fun",
-                "source_file": "course.yml",
+                "source_file": "courses/course.yml",
                 "title": "Funkce"
             },
             {
@@ -1301,25 +1325,6 @@
                         "title": "Moduly",
                         "type": "lesson"
                     },
-                    {
-                        "lesson_slug": "projects/rock-paper-scissors",
-                        "title": "Kámen, nůžky, papír",
-                        "type": "lesson"
-                    },
-                    {
-                        "lesson_slug": "other-tech/databases",
-                        "title": "Databáze - přehled",
-                        "type": "lesson"
-                    }
-                ],
-                "serial": "4",
-                "slug": "other",
-                "source_file": "course.yml",
-                "title": "Ostatní knihovny a technologie"
-            },
-            {
-                "date": "2022-12-08",
-                "materials": [
                     {
                         "lesson_slug": "beginners/str",
                         "title": "Zápis řetězců",
@@ -1337,9 +1342,33 @@
                     },
                     {
                         "lesson_slug": "beginners/fstring",
-                        "title": "Šablony (formátovací řetězce)",
+                        "title": "(Bonus) Šablony - formatovací řetězce",
                         "type": "lesson"
                     },
+                    {
+                        "lesson_slug": "projects/tic-tac-1D",
+                        "title": "Piškvorky 1D",
+                        "type": "lesson"
+                    },
+                    {
+                        "lesson_slug": "other-tech/databases",
+                        "title": "Databáze - přehled",
+                        "type": "lesson"
+                    },
+                    {
+                        "lesson_slug": "other-tech/overview",
+                        "title": "Ostatní technologie",
+                        "type": "lesson"
+                    }
+                ],
+                "serial": "4",
+                "slug": "other",
+                "source_file": "courses/course.yml",
+                "title": "Ostatní knihovny a technologie"
+            },
+            {
+                "date": "2022-12-08",
+                "materials": [
                     {
                         "lesson_slug": "beginners/files",
                         "title": "Soubory",
@@ -1408,18 +1437,18 @@
                 ],
                 "serial": "5",
                 "slug": "str_fio",
-                "source_file": "course.yml",
+                "source_file": "courses/course.yml",
                 "title": "Datové struktury a soubory"
             },
             {
                 "date": "2022-12-15",
                 "serial": "6",
                 "slug": "project",
-                "source_file": "course.yml",
+                "source_file": "courses/course.yml",
                 "title": "Projekt - Robomaster"
             }
         ],
-        "source_file": "course.yml",
+        "source_file": "courses/course.yml",
         "subtitle": "SITPort - podzim 2022 - čtvrtek",
         "time_description": "15:00 - 16:30",
         "timezone": "Europe/Prague",
