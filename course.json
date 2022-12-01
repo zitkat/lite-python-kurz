@@ -1157,27 +1157,27 @@
                 "static_files": {},
                 "title": "Github API"
             },
-            "projects/tic-tac-1D": {
+            "projects/tic-tac-1d": {
                 "pages": {
                     "index": {
                         "attribution": [
                             "Pro SIT Port napsal Tomáš Zítka, 2022"
                         ],
                         "content": {
-                            "path": "tic-tac-1D/index.html"
+                            "path": "tic-tac-1d/index.html"
                         },
                         "license": "cc-by-sa-40",
                         "license_code": "cc0",
                         "slug": "index",
                         "solutions": [],
-                        "source_file": "lessons/projects/tic-tac-1D/index.md",
+                        "source_file": "lessons/projects/tic-tac-1d/index.md",
                         "title": "Piškvorky 1D",
                         "vars": {
                             "coach-present": true
                         }
                     }
                 },
-                "source_file": "lessons/projects/tic-tac-1D/info.yml",
+                "source_file": "lessons/projects/tic-tac-1d/info.yml",
                 "static_files": {},
                 "title": "Piškvorky 1D"
             }
@@ -1346,7 +1346,7 @@
                         "type": "lesson"
                     },
                     {
-                        "lesson_slug": "projects/tic-tac-1D",
+                        "lesson_slug": "projects/tic-tac-1d",
                         "title": "Piškvorky 1D",
                         "type": "lesson"
                     },
