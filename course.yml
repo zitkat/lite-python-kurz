@@ -99,37 +99,28 @@ sessions:
     - lesson: projects/tic-tac-1d
     - lesson: other-tech/databases
     - lesson: other-tech/overview
+    - title: Řetězcový tahák
+      url: https://pyvec.github.io/cheatsheets/strings/strings-cs.pdf
+      type: cheatsheet
 
 - title: Datové struktury a soubory # tomas
   slug: str_fio
   date: 2022-12-08
   materials:
-
-
   - lesson: beginners/files
   - title: 'Odkaz k lekci – Jane Austen: Pride and Prejudice'
     url: https://www.gutenberg.org/files/1342/1342-0.txt
     type: link
-
   - lesson: beginners/list
   - lesson: beginners/tuple
-  - lesson: beginners/nested-list
-  - lesson: beginners/zip-enumerate
-
   - lesson: beginners/dict
-  - lesson: beginners/dict-with-list-values
-  - lesson: intro/json
-  - lesson: projects/github-api
-  - title: 'Odkaz k lekci – Vzorky (ZIP)'
-    url: http://home.zcu.cz/~zitkat/vzorky.zip
-    type: link
+  - title: Tahák na seznamy
+    url: https://pyvec.github.io/cheatsheets/lists/lists-cs.pdf
+    type: cheatsheet
   - title: Slovníkový tahák
     url: https://pyvec.github.io/cheatsheets/dicts/dicts-cs.pdf
     type: cheatsheet
 
-  - title: Řetězcový tahák
-    url: https://pyvec.github.io/cheatsheets/strings/strings-cs.pdf
-    type: cheatsheet
 
 - title: Projekt - Robomaster  # vasek + tomas
   slug: project
